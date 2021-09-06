@@ -1,21 +1,28 @@
  body{
+     margin: 36px;
        background-color: beige;
     }
-    h1{background-color: antiquewhite;
-        font-size: 24px;
-        font-family: "Arial Black";
 
-        text-align:  center;
-        color: blue;
-    }
+ h1{
+ background-color: antiquewhite;
+ font-size: 24px;
+     font-family: "Arial Black", serif;
+ text-align: center; color: blue;
+     border-color: greenyellow;
+ }
 
-    h2{ font-family: "Times New Roman";
-       font-family: kursiv;
-        text-decoration: aqua;
+    h2{
+        font-family: "Times New Roman", serif;
+        font-size: x-large;
+        font-style: italic;
     }
-        p{ font-family: "Times New Roman";
+        p{
+            font-family: "Times New Roman", serif;
             font-size: 18px;
             align-content: normal;
             color: black;
-      page-policy: start;
         }
+div{
+    font-stretch: expanded;
+    font-style: oblique;
+}
