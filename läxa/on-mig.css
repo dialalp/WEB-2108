@@ -1,0 +1,21 @@
+ body{
+       background-color: beige;
+    }
+    h1{background-color: antiquewhite;
+        font-size: 24px;
+        font-family: "Arial Black";
+
+        text-align:  center;
+        color: blue;
+    }
+
+    h2{ font-family: "Times New Roman";
+       font-family: kursiv;
+        text-decoration: aqua;
+    }
+        p{ font-family: "Times New Roman";
+            font-size: 18px;
+            align-content: normal;
+            color: black;
+      page-policy: start;
+        }
