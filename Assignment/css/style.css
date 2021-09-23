@@ -62,12 +62,15 @@ li {
 section {
     background-color: lightslategrey;
 }
-.related-items{
+.related-items {
     margin: 0;
     padding: 15px;
-    width: 100%;
-    place-content: space-between;
+    justify-content: space-between;
     text-align: center;
+}
+.related-items{
+    text-decoration: none;
 
 }
+
 

@@ -53,15 +53,16 @@ td {
 .table-1{
     border-color: white;
 }
-/*.container:{
-        font-size:nth-child(even) background-color:}*/
 .kurser{
     margin: 0;
     padding: 0;
-    text-decoration-line: none;
-    text-underline-style: none;
-    width: 10em;
+    text-justify: auto;
 }
+.kurser a{
+    text-decoration: none;
+    text-align: center;
+}
+
 .h {
     text-align: center;
     border: 10px solid;
@@ -91,4 +92,8 @@ p{
     width: 100%;
     place-content: space-between;
     text-align: center;
+}
+.related-items a{
+    text-decoration: none;
+    margin-right: 35px;
 }
