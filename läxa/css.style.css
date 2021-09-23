@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightskyblue;
+    color: lightslategray;
+}
+.header{
+    background: wheat;
+}
+.hero {
+    background: lightgrey;
+}
+.content{
+    flex: 0 1 300px; /* 300px bred för flexen*/
+    background: antiquewhite;
+}
+.sidebar{
+    background: yellowgreen;
+
+}
+.footer{
+    background: bisque;
+    bottom: auto;
+    padding-bottom: 120px;
+    text-align: center;
+}
+@media screen and (min-width: 768px){
+    .flex-container{
+        display: flex;
+    }
+}
+@media screen and (min-width: 902px){
+    .sidebar{
+        flex: 0 1 500px;
+        background: orange;
+    }
+}
+.wrapper{
+    margin: 0;
+    max-width: 1200px;
+}

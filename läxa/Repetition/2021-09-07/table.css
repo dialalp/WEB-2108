@@ -1,0 +1,18 @@
+table{
+    border: 1px solid black;
+}
+th{
+    border: 1px solid black;
+    font-size: xx-large;
+    color: blue;
+}
+td{
+    border: 1px solid black;
+}
+table th td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td{
+    text-align: left;
+}

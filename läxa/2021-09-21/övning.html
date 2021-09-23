@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example</title>
+   <!-- <link rel="stylesheet" href="style.css">-->
+</head>
+<body>
+<style>
+  .main-content {
+      display: flex;
+      flex-wrap: wrap;
+      border: 4px;
+      flex: auto;
+      flex-flow: wrap;
+  }
+  .header-wrap {
+       justify-content: center;
+       border: 5em;
+       gap: 10em;
+  }
+  .nav{
+      flex:1
+  }
+  .header {
+      flex: 1;
+      order: 2;
+      padding: 25em;
+      flex-flow: column;
+      font-size: large;
+      background-color: #5f93e8;
+
+  }
+  .main-content {
+      flex: 1;
+      border: 2em;
+      background-color: cornflowerblue;
+  }
+  .main{
+      flex: 1;
+      border: 5em;
+      font-size: xx-large
+  }
+  .footer{
+      flex:1;
+      border: 5em;
+      font-size: large;
+      background-color: antiquewhite;
+  }
+</style>
+</body>
+<body>
+<div class = navbar>
+<header>header</header>
+    <nav>nav</nav>
+</div>
+<div class="main-content">
+    <div>main</div>
+    <aside>aside</aside>
+</div>
+<div class="footer">footer</div>
+</body>
+</html>

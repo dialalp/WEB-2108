@@ -1,0 +1,73 @@
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2015/05/15/14/52/water-768745_1280.jpg");
+    opacity: 0.8;
+    filter: radialWipe(65%);
+    font-family: "Arial", serif;
+    margin: 0 0 1px 2px;
+}
+h1{
+    list-style-position: unset;
+    background-color: lightgray;
+    font-size: 38px;
+    font-family: "Arial Black", serif;
+    text-align: center; color: blue;
+    font-style: unset;
+}
+h2{
+    font-family: "Arial Black", serif;
+    font-style: normal;
+    color: maroon;
+}
+h3{
+    text-align: center; color: green;
+    font-size: x-large;
+    font-family: "Arial Black", serif;
+}
+
+p {
+    text-decoration-skip-spaces: start;
+    font-family: "Arial Black", serif;
+    font-size: 18px;
+    color: black;
+}
+.one{
+    margin: 0 12px 12px 0;padding: 0;
+    font-variant: all-petite-caps;
+    font-family: "Times New Roman", serif;
+    text-align: center; font-style: oblique;
+    font-size: xx-large;
+    border: 10px solid;
+    border-color: green brown black deeppink;
+}
+li.two {
+    color: crimson;
+    font-size: large;
+}
+li.tre {
+    color: yellow;
+    font-size: large;
+}
+li.faux{
+    color: chartreuse;
+    font-size: large;
+}
+
+li {
+    font-style: normal;
+    font-family: "Arial Black", serif;
+}
+.andra{
+    justify-items: center;
+}
+section {
+    background-color: lightslategrey;
+}
+.related-items{
+    margin: 0;
+    padding: 15px;
+    width: 100%;
+    place-content: space-between;
+    text-align: center;
+
+}
+

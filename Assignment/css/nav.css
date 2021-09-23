@@ -1,0 +1,43 @@
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 1px solid lightskyblue;
+    background-color: gray;
+}
+.nav-link {
+    color: brown;
+    text-decoration: none;
+    font-size: 25px;
+}
+.nav-item {
+    padding: 5px;
+    text-align: left;
+}
+.nav-item:hover:not(.active) {
+    background-color: wheat;
+}
+
+.active {
+    background-color: lightslategrey;
+}
+@media only screen and (min-width: 768px) {
+    .active {
+        background-color: beige;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .active {
+        background-color: wheat;
+    }
+
+    nav {
+        flex-direction: row;
+    }
+
+    .nav-item {
+        padding: 10px 20px;
+    }
+}

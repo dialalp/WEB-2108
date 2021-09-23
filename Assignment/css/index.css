@@ -1,0 +1,40 @@
+
+body{
+    margin: 2px;
+    padding: 5px;
+    background-color: beige;
+}
+.main-item {
+        display: grid;
+        grid-template-columns:auto;
+        grid-template-rows: auto;
+        background-color: lightgray;
+        text-align: center;
+    }
+h1{
+    color: darkblue;
+    font-size: xxx-large;
+    background-color: beige;
+    font-style: italic;
+}
+h2{
+    color: midnightblue;
+    background-color: beige;
+    padding: 15px;
+    font-style: normal;
+    font-variant: all-small-caps;
+}
+p{
+    font-size: larger;
+    color: black;
+    font-style: normal;
+}
+.button{
+    margin: 1px 1px;
+    padding: 15px;
+    background-color: cornsilk;
+    color: brown;
+    text-align: right;
+    text-decoration: none;
+    font-size: x-large;
+}

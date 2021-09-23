@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid 1</title>
+
+<style>
+    * {
+        .grid-container } border-box
+                              {
+
+                              }
+    .wrapper{
+        display: grid;
+        /*grid-template-columns: 60% 40%;*/
+        grid-template-columns: 40% 30% 30%;
+        grid-column-gap: 3em;
+        grid-row-gap: 3em;
+        /*grid-gap: 1em;*/
+    }
+
+    .wrapper div {
+        background-color:cornflowerblue;
+
+    }
+
+    .wrapper > div:nth-child(odd) {
+        background-color: #aaa;
+    }
+</style>
+</head>
+<body>
+<div class="wrapper">
+    <di>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, dolores excepturi, illo iure magni molestiae nostrum possimus,
+        provident quasi repellendus tempora veniam! Assumenda aut consectetur explicabo labore neque provident ut!
+    </di>
+    <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur culpa cumque dolor dolorem eligendi, fugiat labore nihil nostrum
+        pariatur quae quod sit, temporibus. Architecto, eos libero omnis qui sunt vel!
+    </div>
+    <di>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, dolores excepturi, illo iure magni molestiae nostrum possimus,
+        provident quasi repellendus tempora veniam! Assumenda aut consectetur explicabo labore neque provident ut!
+    </di>
+    <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur culpa cumque dolor dolorem eligendi, fugiat labore nihil nostrum
+        pariatur quae quod sit, temporibus. Architecto, eos libero omnis qui sunt vel!
+    </div>
+    <di>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, dolores excepturi, illo iure magni molestiae nostrum possimus,
+        provident quasi repellendus tempora veniam! Assumenda aut consectetur explicabo labore neque provident ut!
+    </di>
+    <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur culpa cumque dolor dolorem eligendi, fugiat labore nihil nostrum
+        pariatur quae quod sit, temporibus. Architecto, eos libero omnis qui sunt vel!
+    </div>
+</div>
+</body>
+</html>

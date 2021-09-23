@@ -1,0 +1,28 @@
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+}
+
+.footer-item {
+    margin: 5px;
+    padding: 1px;
+    border: 1px solid lemonchiffon;
+    text-align: center;
+    background-color: lightgray;
+}
+.footer-item:hover {
+    border: 5px solid cornflowerblue;
+    background-color: lightblue;
+}
+@media only screen and (min-width: 768px) {
+    footer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media only screen and (min-width: 1200px) {
+    footer {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

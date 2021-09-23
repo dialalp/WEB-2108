@@ -1,0 +1,94 @@
+caption{
+    font-family: "Arial Black", sans-serif;
+    font-size: xx-large;
+    color: blue;
+}
+table {
+    empty-cells: hide;
+    width: 100%;
+    background-color: white;
+    border-collapse: collapse;
+    bottom: 5em;
+}
+
+th {
+    height: 10px;
+    border: 1px solid black;
+    padding: 15px 25px;
+    color: blue;
+    font-size: large;
+    font-family: "Arial Black", sans-serif;
+    background-color: darkturquoise;
+}
+.vecka{
+    background-color: lightslategrey;
+}
+tr.matte {
+    background-color: lightskyblue;
+}
+tr.webbutveckling {
+    background-color: pink;
+}
+tr.programmering {
+    background-color: #aaaaaa;
+}
+tr.digital{
+    background-color: yellow;
+}
+tr.gränssnittsdesign{
+    background-color: cornflowerblue;
+}
+tr.web-2{
+    background-color: aqua;
+}
+.none{
+    background-color: white;
+}
+
+td {
+    border: 1px solid black;
+    padding: 15px 20px;
+    text-align: center;
+}
+.table-1{
+    border-color: white;
+}
+/*.container:{
+        font-size:nth-child(even) background-color:}*/
+.kurser{
+    margin: 0;
+    padding: 0;
+    text-decoration-line: none;
+    text-underline-style: none;
+    width: 10em;
+}
+.h {
+    text-align: center;
+    border: 10px solid;
+    background-size: auto;
+
+}
+h2{
+    font-family: "Arial Black", serif;font-style: normal;
+    text-align: center;
+    text-space: 10px;
+    color: midnightblue;
+}
+h3{
+    font-size: x-large;
+    color: #45a049;
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: x-large;
+    color: black;
+    background-color: lightskyblue;
+}
+.related-items{
+    margin: 0;
+    padding: 15px;
+    width: 100%;
+    place-content: space-between;
+    text-align: center;
+}

@@ -1,0 +1,40 @@
+
+body{
+    margin: 24px;
+    background-image: url("https://cdn.pixabay.com/photo/2015/05/15/14/52/water-768745_1280.jpg");
+    opacity:0.8;
+    filter: grayscale(60%);
+     font-family: "Arial", serif;
+    }
+
+ h1{
+     background-color: greenyellow;
+     font-size: 32px;
+     font-family: "Arial Black", serif;
+     text-align: center; color: blue;
+
+ }
+    h2{
+        font-family: "Arial Black", serif;
+        font-style: italic;
+    }
+    h3{
+        flood-color: red;
+        font-size: larger;
+        font-style: revert;
+
+    }
+        p{
+            font-family: "Arial Black", serif;
+            font-size: 18px;
+            align-content: normal;
+            color: black;
+        }
+
+   li{
+       font-style: normal;
+       font-family: "Arial Black", serif;
+   }
+section{
+    background-color: lightgray;
+}

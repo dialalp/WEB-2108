@@ -1,0 +1,33 @@
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 4em;
+    border: 4px;
+    padding: 10px;
+}
+.div{
+    justify-content: center;
+    gap: 10px;
+}
+.box-1{
+    flex: 1;
+    order: 2;
+    background-color: green;
+}
+.box-2{
+    flex:1;
+    order: 1;
+    background-color: darkgray;
+
+}
+.box-3{
+   flex: 1;
+    order: initial;
+    background-color: aqua;
+}
+
+img {
+    width: 500px;
+    height: 300px;
+}
