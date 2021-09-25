@@ -6,12 +6,13 @@
       <option name="myIgnoreVendorSpecificProperties" value="false" />
       <option name="myCustomPropertiesList">
         <value>
-          <list size="5">
+          <list size="6">
             <item index="0" class="java.lang.String" itemvalue="hover" />
             <item index="1" class="java.lang.String" itemvalue="id-courses" />
             <item index="2" class="java.lang.String" itemvalue="bgcolor" />
             <item index="3" class="java.lang.String" itemvalue="ork-matte" />
             <item index="4" class="java.lang.String" itemvalue="pading" />
+            <item index="5" class="java.lang.String" itemvalue="tr" />
           </list>
         </value>
       </option>
@@ -19,9 +20,13 @@
     <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="myValues">
         <value>
-          <list size="2">
+          <list size="6">
             <item index="0" class="java.lang.String" itemvalue="src" />
             <item index="1" class="java.lang.String" itemvalue="style.css" />
+            <item index="2" class="java.lang.String" itemvalue="(bilder.harnösand2010.jpg)" />
+            <item index="3" class="java.lang.String" itemvalue="alt" />
+            <item index="4" class="java.lang.String" itemvalue="width" />
+            <item index="5" class="java.lang.String" itemvalue="height" />
           </list>
         </value>
       </option>
@@ -30,7 +35,7 @@
     <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="myValues">
         <value>
-          <list size="29">
+          <list size="30">
             <item index="0" class="java.lang.String" itemvalue="nobr" />
             <item index="1" class="java.lang.String" itemvalue="noembed" />
             <item index="2" class="java.lang.String" itemvalue="comment" />
@@ -60,6 +65,7 @@
             <item index="26" class="java.lang.String" itemvalue="style" />
             <item index="27" class="java.lang.String" itemvalue="dl" />
             <item index="28" class="java.lang.String" itemvalue="footer-item" />
+            <item index="29" class="java.lang.String" itemvalue="even" />
           </list>
         </value>
       </option>

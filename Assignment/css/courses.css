@@ -1,20 +1,27 @@
+body{
+    margin:10px;
+    padding: 0;
+}
 caption{
+    margin:0;
+    padding: 0;
     font-family: "Arial Black", sans-serif;
     font-size: xx-large;
     color: blue;
+    background-size: cover;
 }
 table {
-    empty-cells: hide;
-    width: 100%;
+    width: 85%;
     background-color: white;
     border-collapse: collapse;
-    bottom: 5em;
+    bottom: 5px;
 }
 
 th {
     height: 10px;
     border: 1px solid black;
-    padding: 15px 25px;
+    margin: 2px;
+    padding: 1px 2px;
     color: blue;
     font-size: large;
     font-family: "Arial Black", sans-serif;
@@ -47,7 +54,7 @@ tr.web-2{
 
 td {
     border: 1px solid black;
-    padding: 15px 20px;
+    padding: 2px;
     text-align: center;
 }
 .table-1{
@@ -64,10 +71,10 @@ td {
 }
 
 .h {
+    margin-top: 3em;
+    padding: 1px;
     text-align: center;
-    border: 10px solid;
-    background-size: auto;
-
+    border: 3px solid;
 }
 h2{
     font-family: "Arial Black", serif;font-style: normal;
@@ -88,7 +95,7 @@ p{
 }
 .related-items{
     margin: 0;
-    padding: 15px;
+    padding: 10px;
     width: 100%;
     place-content: space-between;
     text-align: center;
@@ -96,4 +103,5 @@ p{
 .related-items a{
     text-decoration: none;
     margin-right: 35px;
+
 }

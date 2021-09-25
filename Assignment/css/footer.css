@@ -2,12 +2,13 @@
 footer {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
-
 .footer-item {
-    margin: 5px;
-    padding: 1px;
     border: 1px solid lemonchiffon;
     text-align: center;
     background-color: lightgray;

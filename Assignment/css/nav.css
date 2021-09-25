@@ -1,17 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
 
+}
 nav {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     border: 1px solid lightskyblue;
     background-color: gray;
+    position: fixed;
+    width: 100%;
+    top:0;
+    left: 0;
+    right: 0;
+
+
 }
 .nav-link {
     color: brown;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
+
 }
-.nav-item {
+.nav-item a{
     padding: 5px;
     text-align: left;
 }
@@ -32,11 +45,9 @@ nav {
     .active {
         background-color: wheat;
     }
-
     nav {
         flex-direction: row;
     }
-
     .nav-item {
         padding: 10px 20px;
     }

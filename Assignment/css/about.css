@@ -3,7 +3,10 @@ body {
     opacity: 0.8;
     filter: radialWipe(65%);
     font-family: "Arial", serif;
-    margin: 0 0 1px 2px;
+    text-align-all: center;
+    margin-top: -10px;
+    padding: 0;
+    background-size: cover;
 }
 h1{
     list-style-position: unset;
@@ -31,7 +34,6 @@ p {
     color: black;
 }
 .one{
-    margin: 0 12px 12px 0;padding: 0;
     font-variant: all-petite-caps;
     font-family: "Times New Roman", serif;
     text-align: center; font-style: oblique;
@@ -62,15 +64,18 @@ li {
 section {
     background-color: lightslategrey;
 }
-.related-items {
+.related-items{
     margin: 0;
-    padding: 15px;
-    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+    place-content: space-between;
     text-align: center;
 }
-.related-items{
+.related-items a{
     text-decoration: none;
-
+    margin-right: 35px;
+    margin-bottom: -15em;
 }
+
 
 

@@ -1,5 +1,47 @@
 body{
-    margin: 10px;
+    margin: 0;
+    padding: 0;
     font-family: "Arial Black", serif;
-
 }
+.articles {
+    margin:20px;
+}
+.dep{
+    margin: 35px 5px 0 10px;
+    padding: 0;
+    border: 5px solid;
+    border-color: midnightblue lightcoral darkturquoise orange;
+    text-align: center;
+}
+
+.article{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.left img{
+    height: 350px;
+    width: 550px;
+}
+.right {
+    max-width: 50%;
+    margin-left: 35px;
+}
+ .date {
+     color: midnightblue;
+     font-style: italic;
+     margin-left: 40px;
+ }
+ h1{
+     color: red;
+ }
+  .beskriv {
+      background-color: #aaaaaa;
+      color: black;
+      text-space: 10px;
+      text-decoration-line: initial;
+  }
+  .author{
+      color: midnightblue;
+
+  }
