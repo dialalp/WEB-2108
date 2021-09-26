@@ -1,5 +1,5 @@
 body{
-    margin:10px;
+    margin:5em;
     padding: 0;
 }
 caption{
@@ -70,7 +70,7 @@ td {
     text-align: center;
 }
 
-.h {
+.high {
     margin-top: 3em;
     padding: 1px;
     text-align: center;
@@ -87,14 +87,13 @@ h3{
     color: #45a049;
     text-align: center;
 }
-p{
+.parcell{
     text-align: center;
     font-size: x-large;
     color: black;
     background-color: lightskyblue;
 }
 .related-items{
-    margin: 0;
     padding: 10px;
     width: 100%;
     place-content: space-between;
@@ -103,5 +102,6 @@ p{
 .related-items a{
     text-decoration: none;
     margin-right: 35px;
+    margin-bottom: -20em;
 
 }

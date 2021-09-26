@@ -4,7 +4,7 @@ body {
     filter: radialWipe(65%);
     font-family: "Arial", serif;
     text-align-all: center;
-    margin-top: -10px;
+    margin-top: 5em;
     padding: 0;
     background-size: cover;
 }
@@ -38,6 +38,9 @@ p {
     font-family: "Times New Roman", serif;
     text-align: center; font-style: oblique;
     font-size: xx-large;
+    margin-top: 55px;
+    margin-right: 20px;
+    margin-bottom: 0;
     border: 10px solid;
     border-color: green brown black deeppink;
 }
@@ -57,15 +60,18 @@ li.faux{
 li {
     font-style: normal;
     font-family: "Arial Black", serif;
+    margin: 25px;
 }
 .andra{
     justify-items: center;
 }
-section {
+.livet {
     background-color: lightslategrey;
+    margin-right: 10px;
+    margin-left: 5px;
 }
 .related-items{
-    margin: 0;
+    margin-bottom: 5em;
     padding: 10px;
     width: 100%;
     place-content: space-between;
@@ -74,7 +80,7 @@ section {
 .related-items a{
     text-decoration: none;
     margin-right: 35px;
-    margin-bottom: -15em;
+    margin-bottom: -20em;
 }
 
 

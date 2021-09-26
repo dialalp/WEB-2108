@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+    text-align: center;
+}
+.clip {
+    position: absolute;
+    margin-top: 2em;
+    margin-right: 5px;
+    /*margin-left: 15em;*/
+    width: 100%;
+    height: auto;
+    border: 0;
+}
+.related-items {
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    place-content: space-between;
+    text-align: center;
+}
+.related-items a{
+    text-decoration: none;
+    margin-right: 35px;
+    margin-bottom: -500em;
+}

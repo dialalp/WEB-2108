@@ -13,7 +13,7 @@ footer {
     text-align: center;
     background-color: lightgray;
 }
-.footer-item:hover {
+.footer-item:hover:not(blue){
     border: 5px solid cornflowerblue;
     background-color: lightblue;
 }
