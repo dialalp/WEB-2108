@@ -1,0 +1,17 @@
+*{
+    margin: 30px;
+    padding: 0;
+    background-color: lightcyan;
+
+}
+body{
+    font-size: large;
+    align-items: center;
+    font-family: "Arial Black",sans-serif;
+}
+.h1 {
+    font-variant: all-small-caps;
+    font-family: "Times New Roman", serif;
+    font-size: xx-large;
+}
+
